@@ -69,6 +69,8 @@ namespace Matching_Game
                     firstClicked.ForeColor = Color.Black;
                     return;
                 }
+                secondClicked = clickedLabel;
+                secondClicked.ForeColor = Color.Black;
                 timer1.Start();
                  
             }
